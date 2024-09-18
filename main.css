@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  background-image: url(./wallpaper1.png);
+  background-size: cover;
+}
+
+header {
+  color: rgb(231, 131, 0);
+  text-align: left;
+  padding: 20px;
+}
+
+header h1 {
+  font-family:'Hepta Slab', Helvetica, Arial;
+  font-size: 40px;
+  padding: 30px;
+  padding-left: 220px;
+}
+
+.text-info {
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+.text-info p {
+  font-size: 25px;
+  color: rgb(6, 0, 95);
+  padding: 100px;
+}
+
+.servicos {
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+  width: 70%;
+  padding-left: 620px;
+}
+
+.servicos h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.servicos ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.servicos li {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: rgb(231, 131, 0);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.servicos li:hover {
+  background-color: rgb(187, 106, 1);
+}
